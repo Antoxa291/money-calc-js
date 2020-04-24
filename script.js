@@ -24,35 +24,3 @@ appData.expenses[e1] = e2;
 appData.expenses[e3] = e4;
 
 alert(appData.budget / 30);
-
-let num = 50;
-
-if (num < 49) {
-  console.log("Fasle");
-} else if (num > 100) {
-  console.log("A lot!");
-} else {
-  console.log("True");
-}
-num == 50 ? console.log("Верно") : console.log("False");
-
-switch (num) {
-  case num < 49:
-    console.log("Fasle");
-    break;
-
-  case num > 100:
-    console.log("A lot!");
-    break;
-
-  default:
-    console.log("True");
-    break;
-}
-
-for (let i = 1; i < 8; i++) {
-  if (i == 6) {
-    break; //continue - пропустити крок
-  }
-  console.log(i);
-}
